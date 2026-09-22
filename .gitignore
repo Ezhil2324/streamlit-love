@@ -1,0 +1,5 @@
+# Never commit your real secrets file
+.streamlit/secrets.toml
+
+__pycache__/
+*.pyc
