@@ -299,36 +299,35 @@ def go(page):
     st.session_state.page = page
 
 
-#def get_credentials():
-#    """Read username/password from st.secrets if set (recommended for
- #   hosted deployments), otherwise fall back to the values in the config
-  #  section above (fine for local/private use)."""
-   # try:
-    #    return st.secrets["auth"]["username"], st.secrets["auth"]["password"]
-    #except Exception:
-     #   return APP_USERNAME, APP_PASSWORD
+def get_credentials():
+    """Read username/password from st.secrets if set (recommended for
+    hosted deployments), otherwise fall back to the values in the config
+    section above (fine for local/private use)."""
+    try:
+        return st.secrets["auth"]["username"], st.secrets["auth"]["password"]
+    except Exception:
+        return APP_USERNAME, APP_PASSWORD
 
 
-#def show_login():
-#    st.markdown(f"<h1 style='text-align:center;'>{LOGIN_TITLE}</h1>", unsafe_allow_html=True)
- #   st.markdown(f"<p class='subtitle'>{LOGIN_SUBTITLE}</p>", unsafe_allow_html=True)
-  #  st.write("")
+def show_login():
+    st.markdown(f"<h1 style='text-align:center;'>{LOGIN_TITLE}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<p class='subtitle'>{LOGIN_SUBTITLE}</p>", unsafe_allow_html=True)
+    st.write("")
 
-  #  st.markdown("<div class='card'>", unsafe_allow_html=True)
-  #  with st.form("login_form"):
-  #      username = st.text_input("Username")
-  #      password = st.text_input("Password", type="password")
-  #      submitted = st.form_submit_button("Unlock 💖")
-  #  st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    with st.form("login_form"):
+        username = st.text_input("Username")
+        password = st.text_input("Password", type="password")
+        submitted = st.form_submit_button("Unlock 💖")
+    st.markdown("</div>", unsafe_allow_html=True)
 
-  # if submitted:
-  #      real_username, real_password = get_credentials()
-  #      if username == real_username and password == real_password:
-  #          st.session_state.authenticated = True
-  #          st.rerun()
-  #      else:
-  #          st.error("That's not quite it — try again 💭")
-
+    if submitted:
+        real_username, real_password = get_credentials()
+        if username == real_username and password == real_password:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error("That's not quite it — try again 💭")
 
 def find_photo(index):
     """Look for photos/{index}.jpg|.jpeg|.png, return path or None."""
@@ -339,9 +338,9 @@ def find_photo(index):
     return None
 
 
-#if not st.session_state.authenticated:
- #   show_login()
-  #  st.stop()
+if not st.session_state.authenticated:
+    show_login()
+    st.stop()
 
 # ---------- Top navigation ----------
 _nav_html = f"""
