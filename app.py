@@ -19,8 +19,8 @@ import streamlit as st
 
 GIRLFRIEND_NAME = "Dhivya!💖"          # her name
 YOUR_NAME = "Ezhil"                  # your name (signs the letter)
-SITE_TITLE = "A Universe of Us my love"   # site theme title
-TAGLINE = "32 planets, one galaxy, and it's all because of you."
+SITE_TITLE = "Happy 27 my love!💖"   # site theme title
+TAGLINE = "Unakaga nan enakaga ne!"
 
 # Theme colors (hex). Try: pink/lavender, sunset orange, or ocean teal.
 PRIMARY_COLOR = "#ce4257"     # headings, buttons
@@ -29,7 +29,7 @@ BG_TOP = "#74c69d"            # background gradient top
 BG_BOTTOM = "#d8f3dc"         # background gradient bottom
 
 # "Our Story" section
-OUR_STORY_TITLE = "How It All Started ✨"
+OUR_STORY_TITLE = "Namma Kadhal inga tha start aachu✨"
 OUR_STORY_TEXT = """
 One fine day, almost 15 years munnadi... Namma 6th standard
 padikum  pothu, Gomathi  miss tution  la start aanathu.....
@@ -75,7 +75,49 @@ That's where our love begins!!!💖💖💖"""
 MEMORY_CAPTIONS = [
     "Ezhil & Dhivya💕 Forever",
     "Happiieee Birthday de Kunjiii💕",
-] +  [f"Your Beautiful images My love 💕" for i in range(1, 42)]
+    "Adada epdi iruka paru azhaga!💕",
+    "Antha paarvai tha😄💕",
+    "Selfie queen😄💕",
+    "Selfie Selfie😄💕",
+    "Enna therigirathu😄💕",
+    "Eeeee Love you💕",
+    "Adada!!😄💕",
+    "Kudumba kuthuvilakku😄💕",
+    "Cutieee💕",
+    "Happy Birthday Thangoo💖",
+    "Azhago azhagu aval kan azhagu💕",
+    "Ahhan😄💕",
+    "Arumai Arumai😄💕",
+    "Super Super💖",
+    "Style uh style uh tha super style uh tha😄😄😄💕",
+    "Alukka irukiyee😄💖",
+    "Eeeeeeeeeeeeeeeeeeeeeee😄💕",
+    "Saree la paathathum... open ah soldren... vilunthuten... 💖💕",
+    "Aval avanirku propose pannum tharunam💕",
+    "Avan avalirku propose pannum tharunam💕",
+    "1st mirror selfie of you and me💖💕",
+    "Katti pudi katti pudi da kannala kanda padi katti pudi da😄😄😄💕",
+    "kissseeyyy💕",
+    "Manamagal kalyanathiruku thayar aagum tharunam😄💕",
+    "Engagement & Kalyanam nadaka pogirathu💖💖💖💕",
+    "Purushan💖Pondatti",
+    "Kalyanathirku piragu kudutha muthangal💕",
+    "Neeyum nanum anbey💕",
+    "Oru arumaiyana Boating!",
+    "Ada Ada Ada!!!💖💖💖 Jodi porutham super😄💕",
+    "Avaloda kaal ah thodama epdi kadhal mulumai adaiyum💖💖💖",
+    "Vekka vekkama varuthey😄💕",
+    "Maruthamalai mamaniye murugaiya😄💕",
+    "Romba varusama poganum nenachen poga mudila... unkuda the varanum nu murugar mudivu panirukaru... Muruga💖💖💖",
+    "Outings thaa😄💕",
+    "Kollihills memories💕",
+    "Carrom la unna minja aal illa de😄💕",
+    "Enna caption podrathunu therilaye😄💕",
+    "Yercaud thangalai anbudan varaverkirathu😄💖",
+    "Aval avanai paarka, avan avalai paarka😄💕",
+    "Mandatory Selfies wherever we go😄💖",
+    "Happy Birthday Ammuuu💖💖💖 The world is yours!!"
+]
 
 # Couples quiz — only she should know these answers!
 QUIZ = [
@@ -104,9 +146,6 @@ QUIZ = [
         "options": ["Lemon rice", "Puliyotharai", "Thakkali Sadham", "Thayir Sadham"],
         "answer": 1,
     },
-{
-        "question": "Sorry thango neriya questions kekalam nu irunthen time kammiya iruku de kunjiii sorryyy babe💕"
-    },
 ]
 
 # "Reasons I love you" generator — add as many as you like
@@ -116,21 +155,57 @@ QUIZ = [
 
 # Final letter
 FINAL_LETTER = f"""
-Dear {GIRLFRIEND_NAME},
+Anbulla en kadhali Dhivya virku,❤️
 
-Write your closing message here. This is the big one — say the thing
-you actually want her to remember from today.
+Unnai paartha nodiye nan unmel kadhalil vilunthuviten,
+adhu kadhal seiyum vayathu kuda illai, kadhal endral
+ennavendru kuda theriyatha kaalathiley unmel kadhalil
+vilunthuvitten...
 
-Happy Birthday. I love you.
+un azhagai kandu nan mayangivitten, andru vilunthavan
+innum elavillai, enna maayam seithayo!!!
 
-— {YOUR_NAME}
+sirikiriya siri siri 😄😄😄😄😄
+
+unnai paartha nodi enaku thondriyathu enakaga tha ne
+piranthaya endru, aanal illai unakaga than nan 
+piranthirukiren, yenna ne tha enna vida munnadi
+poranthutiye!!! 😄😄😄😄😄
+
+Unnodu intha vazhkai muluvathum iruka vendum endru
+mudivu eduthu vitten... oru velai adutha jenmam
+endru ondru irunthal athilum neeyum nanum ondraga
+kadhal seiya vendum endru kadavulidam vendugiren!
+
+Innu sirippu adaka mudilaya 😄😄😄😄😄
+
+neriya eluthanum nu nenachen, konjama short ah 
+eluthiruken. eppavum happy ah irukanum sariya..
+unakaga na eppaiyum irupen... unnoda ella ups and
+downs layum, yaru enna sonnalum unna vittu kudukama
+irupen sariya... Enaku ne unaku nan❤️ namakula
+sanda vantha nammaley peasi thirthukalam sariya...
+apo apo na ethathu thappu panna konjo solli puriya
+vai sariya... seekirama samathanam aagidu de kunji❤️
+konja konjama kaasu sambarichu namaku pudichathu ellam
+vangalam, namaku pudicha mari veedu kattalam, 2 kolantha
+pethukalam❤️ namma sandhosama irukalam sariya...
+ethukagavu feel panna koodathu na iruken sariya thango❤️
+enga Amma, Akka, Aaya ellaru unna nalla paathupanga
+ne ethuku feel panna koodathu sariya... Happy ah iru
+de thango❤️ 
+
+
+Happy Birthday my dear❤️. I love you❤️.
+
+— Ippadikku un anbu kadhalan Ezhil!😄
 """
 
 # ---------- Login screen ----------
 # These are the fallback credentials used when running locally.
 # For hosted deployments, set these in .streamlit/secrets.toml instead
 # (see README) so the real password isn't sitting in app.py / GitHub.
-APP_USERNAME = "dhivya"
+APP_USERNAME = "Dhivya"
 APP_PASSWORD = "24"
 
 LOGIN_TITLE = "For You Ammuuu💌"
@@ -152,6 +227,16 @@ st.markdown(
     f"""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap');
+
+    	
+    /* Force light theme so text stays visible even if the visitor's
+       browser/system is set to dark mode */
+    :root {{ color-scheme: light; }}
+    html, body, [class*="css"], .stApp, .stApp p, .stApp li, .stApp span,
+    .stMarkdown, .stMarkdown p {{
+        color: #4a3b52 !important;
+    }}
+
 
     html, body, [class*="css"] {{
         font-family: 'Quicksand', sans-serif;
@@ -297,7 +382,8 @@ if _query_page in PAGES:
 
 def go(page):
     st.session_state.page = page
-
+    st.query_params["page"] = page
+    st.rerun()
 
 def get_credentials():
     """Read username/password from st.secrets if set (recommended for
@@ -465,9 +551,9 @@ elif st.session_state.page == "quiz":
         )
         st.markdown("<div class='card' style='text-align:center; color: #081c15''>", unsafe_allow_html=True)
         if score == len(QUIZ):
-            st.success(f"{score}/{len(QUIZ)} — Perfect score! You know us better than anyone. 💕")
+            st.success(f"{score}/{len(QUIZ)} — Parahh! Ellamey correct ah kandu pudichita spr de kunjii 💕")
         else:
-            st.success(f"{score}/{len(QUIZ)} — Somehow you still win, because it's your birthday. 😄")
+            st.success(f"{score}/{len(QUIZ)} — Achooo! Konjo tha thango correct uh...")
         st.markdown("</div>", unsafe_allow_html=True)
         if st.button("One more thing..."):
             go("letter")
@@ -517,4 +603,3 @@ elif st.session_state.page == "letter":
         st.session_state.current_reason = None
         st.session_state.finale_shown = False
         go("home")
-        st.rerun()
